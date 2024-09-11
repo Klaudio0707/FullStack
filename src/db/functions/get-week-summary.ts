@@ -12,7 +12,7 @@ export async function getWeekSummary() {
       .select({
         id: goals.id,
         title: goals.title,
-        desiredWeeklyFrequency: goals.desiredweeklyFrequency,
+        desiredWeeklyFrequency: goals.desiredWeeklyFrequency,
         createdAt: goals.createdAt,
       })
       .from(goals)
